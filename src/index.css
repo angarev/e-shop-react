@@ -8,3 +8,18 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/*Main Slider*/
+
+.slide.current,
+.slide.next {
+  background: #eee;
+}
+
+.slider-title,
+.slider-image-wrap {
+  text-align: center;
+}
+
+h2:first-child {
+  margin-top: 30px;
+}

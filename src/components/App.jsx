@@ -1,11 +1,9 @@
 import React, {Component} from 'react';
-import {connect} from 'react-redux';
 import axios from 'axios';
 import {Container, Card, Segment} from "semantic-ui-react";
-import {setBooks} from './actions/books';
-import TopMenu from './components/Menu';
-import BookCard from './components/BookCard';
-import PageLoader from './components/Loader';
+import TopMenu from './Menu';
+import BookCard from './BookCard';
+import PageLoader from './Loader';
 import Slider from 'react-animated-slider';
 import 'react-animated-slider/build/horizontal.css';
 
@@ -46,17 +44,4 @@ class App extends Component {
     }
 }
 
-const mapStateToProps = ({books}) => (
-    {
-        books: books.items,
-        isLoad: books.isLoad
-    }
-);
-
-const mapDispatchToProps = dispatch => {
-    return ({
-        setBooks: books => dispatch(setBooks(books))
-    });
-};
-
-export default connect(mapStateToProps, mapDispatchToProps)(App);
+export default App;

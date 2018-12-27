@@ -7,17 +7,17 @@ class App extends Component {
 
     render() {
 
-        const {books} = this.props.state.books
-        const {setBooks} = this.props
+        const {books} = this.props.state.books;
+        const {setBooks} = this.props;
         const newBooks = [
             {
                 id: 0,
-                title: "When your reducers" + " " + Math.random()
+                title: `When your reducers"  ${Math.random()}`
             }
 
-        ]
+        ];
 
-        console.log(books)
+        console.log(this.props);
 
         return <div>
             <h1>{books[0].title}</h1>
@@ -29,10 +29,12 @@ class App extends Component {
 
 const mapStateToProps = state => ({
     state
-})
+});
 
-const mapDispatchToProps = dispatch => ({
-    setBooks: books => dispatch(setBooks(books))
-})
+const mapDispatchToProps = dispatch => {
+    return ({
+        setBooks: books => dispatch(setBooks(books))
+    });
+};
 
 export default connect(mapStateToProps, mapDispatchToProps)(App);

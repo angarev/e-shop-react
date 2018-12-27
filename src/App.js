@@ -35,9 +35,9 @@ class App extends Component {
                    </Slider>
                </Segment>
                <Segment>
-               <Card.Group itemsPerRow={4}>
-                   {!isLoad ? <PageLoader/> : books.books.map((book, index) =><BookCard key = {index} {...book}/>)}
-               </Card.Group>
+                   <Card.Group itemsPerRow={4}>
+                       {!isLoad ? <PageLoader/> : books.books.map((book, index) =><BookCard key = {index} {...book}/>)}
+                   </Card.Group>
                </Segment>
 
            </Container>

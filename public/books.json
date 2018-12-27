@@ -1,6 +1,7 @@
 {
   "books": [
     {
+      "id":  0,
       "title": "Plug-In PHP: 100 Power Solutions",
       "subtitle": "Simple Solutions to Practical PHP Problems",
       "isbn13": "9780071666596",
@@ -9,6 +10,7 @@
       "url": "https://itbook.store/books/9780071666596"
     },
     {
+      "id":  1,
       "title": "PHP: The Good Parts",
       "subtitle": "Delivering the Best of PHP",
       "isbn13": "9780596804374",
@@ -17,6 +19,7 @@
       "url": "https://itbook.store/books/9780596804374"
     },
     {
+      "id":  2,
       "title": "The PHP Anthology, Volume 2",
       "subtitle": "Object Oriented PHP Solutions",
       "isbn13": "9780957921849",
@@ -25,6 +28,7 @@
       "url": "https://itbook.store/books/9780957921849"
     },
     {
+      "id": 3,
       "title": "The PHP Anthology, Volume 1",
       "subtitle": "Object Oriented PHP Solutions",
       "isbn13": "9780957921856",
@@ -33,6 +37,7 @@
       "url": "https://itbook.store/books/9780957921856"
     },
     {
+      "id": 4,
       "title": "Jump Start PHP",
       "subtitle": "Get up to speed with PHP in a weekend",
       "isbn13": "9780987467409",
@@ -41,6 +46,7 @@
       "url": "https://itbook.store/books/9780987467409"
     },
     {
+      "id":  5,
       "title": "Pro PHP Application Performance",
       "subtitle": "Tuning PHP Web Projects for Maximum Performance",
       "isbn13": "9781430228981",
@@ -49,6 +55,7 @@
       "url": "https://itbook.store/books/9781430228981"
     },
     {
+      "id":  6,
       "title": "Node.js for PHP Developers",
       "subtitle": "Porting PHP to Node.js",
       "isbn13": "9781449333607",
@@ -57,6 +64,7 @@
       "url": "https://itbook.store/books/9781449333607"
     },
     {
+      "id":  7,
       "title": "PHP Cookbook, 3rd Edition",
       "subtitle": "Solutions & Examples for PHP Programmers",
       "isbn13": "9781449363758",
@@ -65,6 +73,7 @@
       "url": "https://itbook.store/books/9781449363758"
     },
     {
+      "id": 8,
       "title": "Pro PHP and jQuery, 2nd Edition",
       "subtitle": "Take your dynamic PHP 7 apps to the next level by adding a JavaScript layer using jQuery",
       "isbn13": "9781484212318",
@@ -73,6 +82,7 @@
       "url": "https://itbook.store/books/9781484212318"
     },
     {
+      "id":  9,
       "title": "PHP CLI",
       "subtitle": "Create Command Line Interface Scripts with PHP",
       "isbn13": "9781484222379",
@@ -81,6 +91,7 @@
       "url": "https://itbook.store/books/9781484222379"
     },
     {
+      "id":  10,
       "title": "Learning React, 2nd Edition",
       "subtitle": "A Hands-On Guide to Building Web Applications Using React and Redux",
       "isbn13": "9780134843551",
@@ -89,6 +100,7 @@
       "url": "https://itbook.store/books/9780134843551"
     },
     {
+      "id":  11,
       "title": "Pro React",
       "subtitle": "Build complex front-end applications in a composable way with React",
       "isbn13": "9781484212615",
@@ -97,6 +109,7 @@
       "url": "https://itbook.store/books/9781484212615"
     },
     {
+      "id":  12,
       "title": "React Native for iOS Development",
       "subtitle": "Harness the power of React and JavaScript to build stunning iOS applications",
       "isbn13": "9781484213964",
@@ -105,6 +118,7 @@
       "url": "https://itbook.store/books/9781484213964"
     },
     {
+      "id":  13,
       "title": "Front-End Reactive Architectures",
       "subtitle": "Explore the Future of the Front-End using Reactive JavaScript Frameworks and Libraries",
       "isbn13": "9781484231791",
@@ -113,6 +127,7 @@
       "url": "https://itbook.store/books/9781484231791"
     },
     {
+      "id":  14,
       "title": "Learning React",
       "subtitle": "Functional Web Development with React and Redux",
       "isbn13": "9781491954621",
@@ -121,6 +136,7 @@
       "url": "https://itbook.store/books/9781491954621"
     },
     {
+      "id":  15,
       "title": "React Quickly",
       "subtitle": "Painless web apps with React, JSX, Redux, and GraphQL",
       "isbn13": "9781617293344",
@@ -129,6 +145,7 @@
       "url": "https://itbook.store/books/9781617293344"
     },
     {
+      "id":  16,
       "title": "React.js Essentials",
       "subtitle": "A fast-paced guide to designing and building scalable and maintainable web apps with React.js",
       "isbn13": "9781783551620",
@@ -137,6 +154,7 @@
       "url": "https://itbook.store/books/9781783551620"
     },
     {
+      "id":  17,
       "title": "Mastering React",
       "subtitle": "Master the art of building modern web applications using React",
       "isbn13": "9781783558568",
@@ -145,6 +163,7 @@
       "url": "https://itbook.store/books/9781783558568"
     },
     {
+      "id":  18,
       "title": "React Cookbook",
       "subtitle": "Create dynamic web apps with React using Redux, Webpack, Node.js, and GraphQL",
       "isbn13": "9781783980727",
@@ -153,6 +172,7 @@
       "url": "https://itbook.store/books/9781783980727"
     },
     {
+      "id":  19,
       "title": "Clojure Reactive Programming",
       "subtitle": "Design and implement highly reusable reactive applications by integrating different frameworks with Clojure",
       "isbn13": "9781783986668",
@@ -161,6 +181,7 @@
       "url": "https://itbook.store/books/9781783986668"
     },
     {
+      "id":  20,
       "title": "Effective JavaScript",
       "subtitle": "68 Specific Ways to Harness the Power of JavaScript",
       "isbn13": "9780321812186",
@@ -169,6 +190,7 @@
       "url": "https://itbook.store/books/9780321812186"
     },
     {
+      "id":  21,
       "title": "Learning JavaScript",
       "subtitle": "A Hands-On Guide to the Fundamentals of Modern JavaScript",
       "isbn13": "9780321832740",
@@ -177,6 +199,7 @@
       "url": "https://itbook.store/books/9780321832740"
     },
     {
+      "id":  22,
       "title": "JavaScript: The Good Parts",
       "subtitle": "Unearthing the Excellence in JavaScript",
       "isbn13": "9780596517748",
@@ -185,6 +208,7 @@
       "url": "https://itbook.store/books/9780596517748"
     },
     {
+      "id":  23,
       "title": "Head First JavaScript",
       "subtitle": "A Learner's Companion to JavaScript",
       "isbn13": "9780596527747",
@@ -193,6 +217,7 @@
       "url": "https://itbook.store/books/9780596527747"
     },
     {
+      "id":  24,
       "title": "JavaScript Creativity",
       "subtitle": "Exploring the Modern Capabilities of JavaScript and HTML5",
       "isbn13": "9781430259442",
@@ -201,6 +226,7 @@
       "url": "https://itbook.store/books/9781430259442"
     },
     {
+      "id":  25,
       "title": "JavaScript for PHP Developers",
       "subtitle": "A Concise Guide to Mastering JavaScript",
       "isbn13": "9781449320195",
@@ -209,6 +235,7 @@
       "url": "https://itbook.store/books/9781449320195"
     },
     {
+      "id":  26,
       "title": "Learning JavaScript Design Patterns",
       "subtitle": "A JavaScript and jQuery Developer's Guide",
       "isbn13": "9781449331818",
@@ -217,6 +244,7 @@
       "url": "https://itbook.store/books/9781449331818"
     },
     {
+      "id":  27,
       "title": "The Problem with Native JavaScript APIs",
       "subtitle": "Why reliance on native JavaScript APIs leads to disadvantages",
       "isbn13": "9781449339951",
@@ -225,6 +253,7 @@
       "url": "https://itbook.store/books/9781449339951"
     },
     {
+      "id":  28,
       "title": "JavaScript Enlightenment",
       "subtitle": "From Library User to JavaScript Developer",
       "isbn13": "9781449342883",
@@ -233,6 +262,7 @@
       "url": "https://itbook.store/books/9781449342883"
     },
     {
+      "id":  29,
       "title": "JavaScript Testing with Jasmine",
       "subtitle": "JavaScript Behavior-Driven Development",
       "isbn13": "9781449356378",
@@ -241,6 +271,7 @@
       "url": "https://itbook.store/books/9781449356378"
     },
     {
+      "id":  30,
       "title": "Learn More Python 3 the Hard Way",
       "subtitle": "The Next Step for New Python Programmers",
       "isbn13": "9780134123486",
@@ -249,6 +280,7 @@
       "url": "https://itbook.store/books/9780134123486"
     },
     {
+      "id":  31,
       "title": "Programming in Python 3, 2nd Edition",
       "subtitle": "A Complete Introduction to the Python Language",
       "isbn13": "9780321680563",
@@ -257,6 +289,7 @@
       "url": "https://itbook.store/books/9780321680563"
     },
     {
+      "id": 32,
       "title": "Beginning Python",
       "subtitle": "Using Python 2.6 and Python 3.1",
       "isbn13": "9780470414637",
@@ -265,6 +298,7 @@
       "url": "https://itbook.store/books/9780470414637"
     },
     {
+      "id":  33,
       "title": "Python Cookbook, 2nd Edition",
       "subtitle": "Recipes from the Python Community",
       "isbn13": "9780596007973",
@@ -273,6 +307,7 @@
       "url": "https://itbook.store/books/9780596007973"
     },
     {
+      "id":  34,
       "title": "Python Pocket Reference, 4th Edition",
       "subtitle": "Python in Your Pocket",
       "isbn13": "9780596158088",
@@ -281,6 +316,7 @@
       "url": "https://itbook.store/books/9780596158088"
     },
     {
+      "id":  35,
       "title": "Python for Unix and Linux System Administration",
       "subtitle": "Efficient Problem Solving with Python",
       "isbn13": "9780596515829",
@@ -289,6 +325,7 @@
       "url": "https://itbook.store/books/9780596515829"
     },
     {
+      "id":  36,
       "title": "Foundations of Python Network Programming, 2nd Edition",
       "subtitle": "The comprehensive guide to building network applications with Python",
       "isbn13": "9781430230038",
@@ -297,6 +334,7 @@
       "url": "https://itbook.store/books/9781430230038"
     },
     {
+      "id":  37,
       "title": "Python Algorithms",
       "subtitle": "Mastering Basic Algorithms in the Python Language",
       "isbn13": "9781430232377",
@@ -305,6 +343,7 @@
       "url": "https://itbook.store/books/9781430232377"
     },
     {
+      "id":  38,
       "title": "Python and AWS Cookbook",
       "subtitle": "Managing Your Cloud with Python and Boto",
       "isbn13": "9781449305444",
@@ -313,6 +352,7 @@
       "url": "https://itbook.store/books/9781449305444"
     },
     {
+      "id":  39,
       "title": "Python Cookbook, 3rd Edition",
       "subtitle": "Recipes for Mastering Python 3",
       "isbn13": "9781449340377",
@@ -321,6 +361,7 @@
       "url": "https://itbook.store/books/9781449340377"
     },
     {
+      "id":  40,
       "title": "Using Node.js for UI Testing",
       "subtitle": "Learn how to easily automate testing of your web apps using Node.js, Zombie.js, and Mocha",
       "isbn13": "9781782160526",
@@ -329,6 +370,7 @@
       "url": "https://itbook.store/books/9781782160526"
     },
     {
+      "id":  41,
       "title": "Node Cookbook, 2nd Edition",
       "subtitle": "Over 50 recipes to master the art of asynchronous server-side JavaScript using Node.js, with coverage of Express 4 and Socket.IO frameworks and the new Streams API",
       "isbn13": "9781783280438",
@@ -337,6 +379,7 @@
       "url": "https://itbook.store/books/9781783280438"
     },
     {
+      "id":  42,
       "title": "Node.js Design Patterns",
       "subtitle": "Get the best out of Node.js by mastering a series of patterns and techniques to create modular, scalable, and efficient applications",
       "isbn13": "9781783287314",
@@ -345,6 +388,7 @@
       "url": "https://itbook.store/books/9781783287314"
     },
     {
+      "id":  43,
       "title": "Deploying Node.js",
       "subtitle": "Learn how to build, test, deploy, monitor, and maintain your Node.js applications at scale",
       "isbn13": "9781783981403",
@@ -353,6 +397,7 @@
       "url": "https://itbook.store/books/9781783981403"
     },
     {
+      "id":  44,
       "title": "RESTful Web API Design with Node.js",
       "subtitle": "Design and implement comprehensive RESTful solutions in Node.js",
       "isbn13": "9781783985869",
@@ -361,6 +406,7 @@
       "url": "https://itbook.store/books/9781783985869"
     },
     {
+      "id":  45,
       "title": "Node.js By Example",
       "subtitle": "Learn to use Node.js by creating a fully functional social network",
       "isbn13": "9781784395711",
@@ -369,6 +415,7 @@
       "url": "https://itbook.store/books/9781784395711"
     },
     {
+      "id":  46,
       "title": "Learning Node.js for Mobile Application Development",
       "subtitle": "Make use of Node.js to learn the development of a simple yet scalable cross-platform mobile application",
       "isbn13": "9781785280498",
@@ -377,20 +424,13 @@
       "url": "https://itbook.store/books/9781785280498"
     },
     {
+      "id":  47,
       "title": "Web Development with MongoDB and NodeJS, 2nd Edition",
       "subtitle": "Build an interactive and full-featured web application from scratch using Node.js and MongoDB",
       "isbn13": "9781785287527",
       "price": "$30.54",
       "image": "https://itbook.store/img/books/9781785287527.png",
       "url": "https://itbook.store/books/9781785287527"
-    },
-    {
-      "title": "Learn Node.js by Building 6 Projects",
-      "subtitle": "Build six practical and instructive Node.js projects",
-      "isbn13": "9781788293631",
-      "price": "$27.99",
-      "image": "https://itbook.store/img/books/9781788293631.png",
-      "url": "https://itbook.store/books/9781788293631"
     }
   ]
 }

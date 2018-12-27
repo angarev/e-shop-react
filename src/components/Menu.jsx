@@ -14,7 +14,7 @@ const TopMenu = () =>(
             </Menu.Item>
 
             <Menu.Item name='help'>
-                Card:  &nbsp; <strong>0</strong> $
+                Cart:  &nbsp; <strong>0</strong> $
             </Menu.Item>
         </Menu.Menu>
     </Menu>

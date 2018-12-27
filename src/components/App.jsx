@@ -4,6 +4,7 @@ import {Container, Card, Segment} from "semantic-ui-react";
 import TopMenu from './Menu';
 import BookCard from './BookCard';
 import PageLoader from './Loader';
+import Filter from './Filter';
 import Slider from 'react-animated-slider';
 import 'react-animated-slider/build/horizontal.css';
 
@@ -32,6 +33,7 @@ class App extends Component {
                        </div>)}
                    </Slider>
                </Segment>
+               <Filter/>
                <Segment>
                    <Card.Group itemsPerRow={4}>
                        {!isLoad ? <PageLoader/> : books.books.map((book, index) =><BookCard key = {index} {...book}/>)}

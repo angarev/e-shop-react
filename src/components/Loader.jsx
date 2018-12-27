@@ -1,6 +1,6 @@
-import React from 'react'
-import { Loader } from 'semantic-ui-react'
+import React from 'react';
+import { Loader } from 'semantic-ui-react';
 
-const PageLoader = () => <Loader active inline='centered' />
+const PageLoader = () => <Loader active inline='centered' />;
 
 export default PageLoader

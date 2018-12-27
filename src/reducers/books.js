@@ -1,29 +1,21 @@
 const initialState = {
-    books: [
-        {
-            id: 0,
-            title: "Custom Logger Middleware"
-        }
-    ]
-}
+    isLoad: false,
+    items: null
+};
 
 export default (state = initialState, action) => {
     switch (action.type) {
         case 'SET_BOOKS':
             return {
-
                 ...state,
-                books: action.payload
-
-
+                items: action.payload,
+                isLoad: true
             };
-        case 'ADD_BOOKS':
+       case 'SET_IS_READY':
             return {
-                books: [
-                    ...state.books,
-                    action.payload
-                ]
-            }
+                ...state,
+                isLoad: action.payload
+            };
         default:
             return state
     }

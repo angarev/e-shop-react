@@ -4,11 +4,12 @@
   "private": true,
   "dependencies": {
     "axios": "^0.18.0",
+    "lodash": "^4.17.11",
     "react": "^16.7.0",
     "react-animated-slider": "^1.1.4",
     "react-dom": "^16.7.0",
-    "react-scripts": "2.1.2",
     "react-redux": "^6.0.0",
+    "react-scripts": "2.1.2",
     "redux": "^4.0.1",
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.3.0",

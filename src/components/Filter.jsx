@@ -1,42 +1,30 @@
-import React, {Component} from 'react';
+import React from 'react';
 import {Menu} from 'semantic-ui-react';
 
-export default class Filter extends Component {
-    state = {activeItem: 'all'};
 
-    handleItemClick = (e, {name}) => this.setState({activeItem: name});
+const Filter = ({setFilter, filterBy}) => (
+    <Menu secondary>
+        <Menu.Item
+            name='All'
+            active={filterBy === 'All'}
+            onClick={setFilter.bind(this, 'All')}
+        />
+        <Menu.Item
+            name='Lowest price'
+            active={filterBy === 'Lowest price'}
+            onClick={setFilter.bind(this, 'Lowest price')}
+        />
+        <Menu.Item
+            name='Highest price'
+            active={filterBy === 'Highest price'}
+            onClick={setFilter.bind(this, 'Highest price')}
+        />
+        <Menu.Item
+            name='Isbn'
+            active={filterBy === 'Isbn'}
+            onClick={setFilter.bind(this, 'Isbn')}
+        />
+    </Menu>
+);
 
-    render() {
-        const {activeItem} = this.state;
-
-        return (
-            <Menu secondary>
-                <Menu.Item
-                    name='All'
-                    active={activeItem === 'All'}
-                    onClick={this.handleItemClick}
-                />
-                <Menu.Item
-                    name='Popular'
-                    active={activeItem === 'Popular'}
-                    onClick={this.handleItemClick}
-                />
-                <Menu.Item
-                    name='Lowest price'
-                    active={activeItem === 'Lowest price'}
-                    onClick={this.handleItemClick}
-                />
-                <Menu.Item
-                    name='Highest price'
-                    active={activeItem === 'Highest price'}
-                    onClick={this.handleItemClick}
-                />
-                <Menu.Item
-                    name='Author'
-                    active={activeItem === 'Author'}
-                    onClick={this.handleItemClick}
-                />
-            </Menu>
-        )
-    }
-}
+export default Filter

@@ -1,7 +1,7 @@
 const initialState = {
     isLoad: false,
     items: null,
-    filterBy: 'all'
+    filterBy: 'All'
 };
 
 export default (state = initialState, action) => {

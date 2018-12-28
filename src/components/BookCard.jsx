@@ -15,7 +15,7 @@ const BookCard = ({title, subtitle, isbn13, price, image}) => (
             <Card.Description>{subtitle}</Card.Description>
         </Card.Content>
         <Card.Content extra>
-            <Card.Description>{price}</Card.Description>
+            <Card.Description>${price}</Card.Description>
         </Card.Content>
     </Card>
 );

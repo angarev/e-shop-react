@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
 import axios from 'axios';
 import {Container, Card, Segment} from "semantic-ui-react";
-import TopMenu from './Menu';
-import BookCard from './BookCard';
+import BookCard from '../containers/BookCart';
 import PageLoader from './Loader';
 import Filter from '../containers/Filter';
+import TopMenu from '../containers/Menu';
 import Slider from 'react-animated-slider';
 import 'react-animated-slider/build/horizontal.css';
 

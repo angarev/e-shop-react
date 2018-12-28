@@ -4,4 +4,12 @@ export const setFilter = (filter) =>(
         payload: filter
 
     }
-)
+);
+
+export const setQuery = (query) =>(
+    {
+        type: 'SET_SEARCH_QUERY',
+        payload: query
+
+    }
+);

@@ -39,9 +39,7 @@ class App extends Component {
                        {!isLoad ? <PageLoader/> : books.map((book, index) =><BookCard key = {index} {...book}/>)}
                    </Card.Group>
                </Segment>
-
            </Container>
-
        );
     }
 }

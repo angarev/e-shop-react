@@ -22,7 +22,7 @@ const sortBy = (books, filterBy, searchQuery) => {
             return orderBy(books,  'isbn13', 'asc');
         default:
             return books
-    };
+    }
 };
 
 const mapStateToProps = ({books, filter} ) => (
